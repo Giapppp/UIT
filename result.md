@@ -5,12 +5,7 @@
 
 ### 1. Merge sort ###
 #### Mô tả ####
-- Sắp xếp trộn hoạt động kiểu đệ quy:
-  - Đầu tiên chia dữ liệu thành 2 phần, và sắp xếp từng phần.
-  - Sau đó gộp 2 phần lại với nhau. Để gộp 2 phần, ta làm như sau:
-    - Tạo một dãy A mới để chứa các phần tử đã sắp xếp. 
-    - So sánh 2 phần tử đầu tiên của 2 phần. Phần tử nhỏ hơn ta cho vào A và xóa khỏi phần tương ứng.
-    - Tiếp tục như vậy đến khi ta cho hết các phần tử vào dãy A.
+Giống như Quick sort, Merge sort là một thuật toán chia để trị. Thuật toán này chia mảng cần sắp xếp thành 2 nửa. Tiếp tục lặp lại việc này ở các nửa mảng đã chia. Sau cùng gộp các nửa đó thành mảng đã sắp xếp.
 ##### a) Ưu điểm
 - Chạy nhanh, độ phức tạp $O(NlogN)$
 - Ổn định
@@ -19,11 +14,9 @@
 
 ### 2. Quick sort ###
 #### Mô tả ####
-- Chia dãy thành 2 phần, một phần "lớn" và một phần "nhỏ".
-  - Chọn một khóa pivot
-  - Những phần tử lớn hơn pivot chia vào phần lớn
-  - Những phần tử nhỏ hơn hoặc bằng pivot chia vào phần nhỏ.
-- Gọi đệ quy để sắp xếp 2 phần.
+- Chia mảng thành hai phần bằng cách so sánh từng phần tử của mảng với một phần tử được gọi là phần tử chốt. Một mảng bao gồm các phần tử nhỏ hơn hoặc bằng phần tử chốt và một mảng gồm các phần tử lớn hơn phần tử chốt.
+
+- Quá trình phân chia này diễn ra cho đến khi độ dài của các mảng con đều bằng 1. Với phương pháp đệ quy ta có thể sắp xếp nhanh các mảng con sau khi kết thúc chương trình ta được một mảng đã sắp xếp hoàn chỉnh.
 ##### a) Ưu điểm
 - Chạy nhanh (nhanh nhất trong các thuật toán sắp xếp dựa trên việc só sánh các phần tử). Độ phức tạp $O(NlogN)$
 ##### b) Nhược điểm #####
@@ -31,8 +24,7 @@
 
 ### 3. Heap sort ###
 #### Mô tả ####
-- Ta lưu mảng vào CTDL Heap.
-- Ở mỗi bước, ta lấy ra phần tử nhỏ nhất trong heap, cho vào mảng đã sắp xếp.
+Heap sort là kỹ thuật sắp xếp dựa trên so sánh dựa trên cấu trúc dữ liệu Binary Heap. Nó tương tự như sắp xếp lựa chọn, nơi đầu tiên chúng ta tìm phần tử lớn nhất và đặt phần tử lớn nhất ở cuối. Chúng ta lặp lại quá trình tương tự cho các phần tử còn lại
 ##### a) Ưu điểm
 - Cài đặt đơn giản nếu đã có sẵn thư viện Heap.
 - Chạy nhanh, độ phức tạp $O(NlogN)$.
