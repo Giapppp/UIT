@@ -19,10 +19,10 @@ void input(const string& file){
 
 int main(){
     auto start = chrono::high_resolution_clock::now(); // start the timer
-    input("data_10.txt");
+    input("Test_1.txt");
     sort(arr, arr + 1000000); // gọi hàm sắp xếp
       // write the sorted data to a file
-    ofstream out("out_10.txt");
+    ofstream out("out_1.txt");
     for(int i = 0; i < 1000000; ++i){
         out << arr[i] << endl;
     }
