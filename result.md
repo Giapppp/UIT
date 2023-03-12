@@ -46,11 +46,11 @@
 ## KẾT QUẢ THỰC NGHIỆM ##
 Bảng thời gian chạy(tính theo milisecond)<br />
 
-![image](https://user-images.githubusercontent.com/109911533/224060062-13f35c15-7191-4c37-aa75-bb1f2805054e.png)<br />
+![image](https://github.com/Giapppp/UIT/blob/main/table1.png)<br />
 
 Biểu đồ thời gian<br b/>
 
-![image](https://user-images.githubusercontent.com/109911533/224068676-103fc4cd-4f6e-4f81-aca0-b8d8f6220f1c.png)
+![image](https://github.com/Giapppp/UIT/blob/main/chart.png)
 
 
 
