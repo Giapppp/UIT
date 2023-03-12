@@ -1,7 +1,7 @@
 # BÁO CÁO VỀ THUẬT TOÁN SẮP XẾP #
 
-#### Họ và Tên: Trần Hoàng Tuấn Kiệt ####
-#### MSSV: 22520724 ####
+#### Họ và Tên: Vũ Tiến Giáp ####
+#### MSSV: 22520367 ####
 
 ### 1. Merge sort ###
 #### Mô tả ####
